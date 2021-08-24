@@ -4,18 +4,8 @@ import Main from '.';
 export default {
   title: 'Main',
   component: Main,
-  args: {
-    title: 'default'
-  },
-  argTypes: {
-    color: {
-      control: 'color'
-    }
-  }
+  args: {},
+  argTypes: {}
 } as Meta;
 
 export const Basic: Story = (args) => <Main {...args} />;
-
-Basic.args = {
-  color: '#fff000'
-};

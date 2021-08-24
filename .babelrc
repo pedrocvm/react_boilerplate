@@ -9,7 +9,6 @@
       }
     ]
   ],
-  // alteração para funcionar o teste toHaveStyleRule
   "env": {
     "test": {
       "plugins": [

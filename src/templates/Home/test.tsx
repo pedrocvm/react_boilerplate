@@ -1,10 +1,12 @@
 import { screen } from '@testing-library/react';
 import { renderWithTheme } from 'utils/tests/helpers';
 
-import Main from '.';
+import Home from '.';
 
-describe('<Main />', () => {
+const props = {};
+
+describe('<Home />', () => {
   it('should render correctly', () => {
-    renderWithTheme(<Main />);
+    renderWithTheme(<Home {...props} />);
   });
 });
